@@ -77,7 +77,8 @@ padding: 15px;
     padding-bottom: 115px;
     text-align: center;
   }
-  
+  .form {display: flex;justify-content: center; align-items: center;}
+
   .form h1{
     font-size: 48px;
   }
@@ -122,11 +123,11 @@ border-radius: 15px;
 border: none;}
 .form__submit{font-size: 18px;
 font-weight: 600;
-}
-.input {
+margin-top: 40px;}
+input {
   outline: none;
 }
-.select {
+select {
   appearance: none;
 }
 button:hover{
@@ -140,24 +141,30 @@ footer
 padding-bottom: 90px;
 padding-right: 20px;
 padding-left: 20px;}
-footer__container{display:flex;
-  justify-content:space-between;}
+
+.footer__container {display:flex;
+  justify-content:center;}
+
 .footer__links
 {display: flex;
   flex-direction: column;}
  
-.footer__copyright {padding-top: 40px;
+.footer__copyright {margin-top: 40px;
 text-align: center;
 opacity: 0.5;}
 
 .footer__group{
-  padding-right: 80px;
+  margin-right: 80px;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 30px;
 }
 .footer__links h3
 {font-size: 16px;
 opacity: 0.7;
 margin-bottom: 30px;}
 .footer__links a{
-  margin-bottom: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
 }
 
