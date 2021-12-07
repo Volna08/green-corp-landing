@@ -8,6 +8,10 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 20px;
+position: sticky;
+background-color: #fff;
+top:0px;
+z-index: 1;
 }
 .header__logo {
 height: 30px;}
@@ -167,4 +171,28 @@ margin-bottom: 30px;}
   padding-bottom: 15px;
   font-size: 16px;
 }
+@keyframes rotation{
+  0%{
+    transform: rotate(0deg);
+  }
 
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.about__sun—image{
+  animation: rotation 10s infinite linear;
+  position: absolute;
+}
+.about__info  {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounce; 
+  animation-duration: 2s;
+}
+.about__images  {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounce; 
+  animation-duration: 2s;
+}
